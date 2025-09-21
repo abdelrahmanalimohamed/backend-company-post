@@ -1,0 +1,12 @@
+﻿global using CompanyPosts.Application.CQRS.Commands;
+global using CompanyPosts.Application.CQRS.Query;
+global using CompanyPosts.Application.DTO.Request;
+global using CompanyPosts.Application.DTO.Response;
+global using CompanyPosts.Application.Extension;
+global using CompanyPosts.Infrastructure.Data;
+global using CompanyPosts.Infrastructure.Extensions;
+global using CompanyPosts.Infrastructure.Seeds;
+global using MediatR;
+global using Microsoft.AspNetCore.Authorization;
+global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.EntityFrameworkCore;

@@ -1,0 +1,10 @@
+﻿global using CompanyPosts.Application.Abstraction;
+global using CompanyPosts.Application.CQRS.Commands;
+global using CompanyPosts.Application.CQRS.Query;
+global using CompanyPosts.Application.DTO.Request;
+global using CompanyPosts.Application.DTO.Response;
+global using CompanyPosts.Domain.Base;
+global using CompanyPosts.Domain.Entities;
+global using MediatR;
+global using Microsoft.Extensions.DependencyInjection;
+global using System.Linq.Expressions;
